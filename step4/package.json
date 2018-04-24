@@ -1,0 +1,29 @@
+{
+  "name": "step3-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack -p",
+    "start": "node_modules/.bin/webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.1",
+    "file-loader": "^1.1.6",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.12.0",
+    "jquery": "^3.2.1"
+  }
+}
